@@ -7,7 +7,7 @@ date = datetime.today().strftime("%d/%b")
 
 @app.route("/")
 def index():
-    my_name = "Pasi"
+    my_name = "Michael Jordan"
     page = ""
     f = open("template/portfolio.html", "r")
     page = f.read()
